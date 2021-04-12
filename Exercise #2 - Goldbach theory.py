@@ -1,5 +1,5 @@
 import math
-
+''' Given an Integer, positive number as an input, the output is a tuple of 2 prime numbers 'a' and 'b' that hold: number = a+b '''
 
 def goldbach_pair(n: int) -> tuple[int, int]:
     if n > 2:
